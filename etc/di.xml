@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- CSS native variables on admin -->
+    <type name="Magento\Theme\Model\Design\Config\MetadataProvider">
+        <arguments>
+            <argument name="metadata" xsi:type="array">
+                <!-- Media Queries -->
+                <item name="variables_media_queries_sm" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_media_queries_sm</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/media_queries</item>
+                </item>
+                <item name="variables_media_queries_md" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_media_queries_md</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/media_queries</item>
+                </item>
+                <item name="variables_media_queries_lg" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_media_queries_lg</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/media_queries</item>
+                </item>
+                <item name="variables_media_queries_xl" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_media_queries_xl</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/media_queries</item>
+                </item>
+                <item name="variables_media_queries_2xl" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_media_queries_2xl</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/media_queries</item>
+                </item>
+
+                <!-- Font Family -->
+                <item name="variables_font_family" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_font_family</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/typography</item>
+                </item>
+
+                <!-- Colors -->
+                <item name="variables_colors_primary_lighter" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_colors_primary_lighter</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/colors/primary_color</item>
+                </item>
+                <item name="variables_colors_primary_default" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_colors_primary_default</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/colors/primary_color</item>
+                </item>
+                <item name="variables_colors_primary_darker" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_colors_primary_darker</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/colors/primary_color</item>
+                </item>
+
+                <item name="variables_colors_secondary_lighter" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_colors_secondary_lighter</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/colors/secondary_color</item>
+                </item>
+                <item name="variables_colors_secondary_default" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_colors_secondary_default</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/colors/secondary_color</item>
+                </item>
+                <item name="variables_colors_secondary_darker" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_colors_secondary_darker</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/colors/secondary_color</item>
+                </item>
+
+                <!-- Add items for other color variables -->
+
+                <!-- Text Colors -->
+                <item name="variables_text_colors_primary_lighter" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_text_colors_primary_lighter</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/text_colors/primary_text_color</item>
+                </item>
+                <item name="variables_text_colors_primary_default" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_text_colors_primary_default</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/text_colors/primary_text_color</item>
+                </item>
+                <item name="variables_text_colors_primary_darker" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_text_colors_primary_darker</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/text_colors/primary_text_color</item>
+                </item>
+
+                <item name="variables_text_colors_secondary_lighter" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_text_colors_secondary_lighter</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/text_colors/secondary_text_color</item>
+                </item>
+                <item name="variables_text_colors_secondary_default" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_text_colors_secondary_default</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/text_colors/secondary_text_color</item>
+                </item>
+                <item name="variables_text_colors_secondary_darker" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_text_colors_secondary_darker</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/text_colors/secondary_text_color</item>
+                </item>
+                <!-- Add items for other text color variables -->
+
+                <!-- Background Colors -->
+                <item name="variables_background_colors_primary_lighter" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_background_colors_primary_lighter</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/background_colors/primary_background_color</item>
+                </item>
+                <item name="variables_background_colors_primary_default" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_background_colors_primary_default</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/background_colors/primary_background_color</item>
+                </item>
+                <item name="variables_background_colors_primary_darker" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_background_colors_primary_darker</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/background_colors/primary_background_color</item>
+                </item>
+
+                <item name="variables_background_colors_secondary_lighter" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_background_colors_secondary_lighter</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/background_colors/secondary_background_color</item>
+                </item>
+                <item name="variables_background_colors_secondary_default" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_background_colors_secondary_default</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/background_colors/secondary_background_color</item>
+                </item>
+                <item name="variables_background_colors_secondary_darker" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_background_colors_secondary_darker</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/background_colors/secondary_background_color</item>
+                </item>
+                <!-- Add items for other background color variables -->
+
+                <!-- Background Container Colors -->
+                <item name="variables_background_colors_container_lighter" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_background_colors_container_lighter</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/background_colors/container_background_color</item>
+                </item>
+                <item name="variables_background_colors_container_default" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_background_colors_container_default</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/background_colors/container_background_color</item>
+                </item>
+                <item name="variables_background_colors_container_darker" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_background_colors_container_darker</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/background_colors/container_background_color</item>
+                </item>
+
+                <!-- Border Colors -->
+                <item name="variables_border_colors_primary_lighter" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_border_colors_primary_lighter</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/border_colors/primary_border_color</item>
+                </item>
+                <item name="variables_border_colors_primary_default" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_border_colors_primary_default</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/border_colors/primary_border_color</item>
+                </item>
+                <item name="variables_border_colors_primary_darker" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_border_colors_primary_darker</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/border_colors/primary_border_color</item>
+                </item>
+
+                <item name="variables_border_colors_secondary_lighter" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_border_colors_secondary_lighter</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/border_colors/secondary_border_color</item>
+                </item>
+                <item name="variables_border_colors_secondary_default" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_border_colors_secondary_default</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/border_colors/secondary_border_color</item>
+                </item>
+                <item name="variables_border_colors_secondary_darker" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_border_colors_secondary_darker</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/border_colors/secondary_border_color</item>
+                </item>
+
+                <item name="variables_border_colors_container_lighter" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_border_colors_container_lighter</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/border_colors/container_border_color</item>
+                </item>
+                <item name="variables_border_colors_container_default" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_border_colors_container_default</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/border_colors/container_border_color</item>
+                </item>
+                <item name="variables_border_colors_container_darker" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_border_colors_container_darker</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/border_colors/container_border_color</item>
+                </item>
+                <!-- Add items for other border color variables -->
+
+                <!-- Heights -->
+                <item name="variables_heights_14" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_heights_14</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/heights</item>
+                </item>
+                <item name="variables_heights_a11y" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_heights_a11y</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/heights</item>
+                </item>
+                <item name="variables_heights_screen_25" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_heights_screen_25</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/heights</item>
+                </item>
+                <item name="variables_heights_screen_50" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_heights_screen_50</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/heights</item>
+                </item>
+                <item name="variables_heights_screen_75" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_heights_screen_75</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/heights</item>
+                </item>
+                <!-- Add items for other height variables -->
+
+                <!-- Widths -->
+                <item name="variables_widths_8" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_widths_8</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/widths</item>
+                </item>
+                <item name="variables_widths_20" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_widths_20</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/widths</item>
+                </item>
+                <item name="variables_widths_40" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_widths_40</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/widths</item>
+                </item>
+                <item name="variables_widths_48" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_widths_48</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/widths</item>
+                </item>
+                <!-- Add items for other width variables -->
+
+                <!-- Container -->
+                <item name="variables_container_center" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_container_center</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/container</item>
+                </item>
+                <item name="variables_container_padding" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_container_padding</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/container</item>
+                </item>
+
+                <!-- custom -->
+                <item name="variables_additional_custom" xsi:type="array">
+                    <item name="path" xsi:type="string">design/variables/variables_additional_custom</item>
+                    <item name="fieldset" xsi:type="string">other_settings/variables/additional</item>
+                    <item name="backend_model" xsi:type="string">Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</item>
+                </item>
+            </argument>
+        </arguments>
+    </type>
+</config>

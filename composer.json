@@ -1,0 +1,20 @@
+{
+  "name": "gtstudio/module-hyva-theme-variables",
+  "version": "1.0.0",
+  "description": "This module enable a admin variables creation for use in frontend area.",
+  "type": "magento2-module",
+  "require": {
+      "php": "~8.0|~8.1|~8.2",
+      "magento/framework": "*",
+      "magento/module-theme": "101.1.*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Gtstudio\\HyvaThemeVariables\\": ""
+    }
+  }
+}

@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <fieldset name="other_settings">
+        <fieldset name="variables" sortOrder="1">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">category_slider</item>
+                </item>
+            </argument>
+            <settings>
+                <level>1</level>
+                <collapsible>true</collapsible>
+                <label translate="true">Variables</label>
+            </settings>
+
+            <!-- Media Queries -->
+            <fieldset name="media_queries" sortOrder="20">
+                <settings>
+                    <level>2</level>
+                    <collapsible>true</collapsible>
+                    <label translate="true">Media Queries</label>
+                </settings>
+                <field name="variables_media_queries_sm" formElement="input">
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">Small Screen Size</label>
+                        <dataScope>variables_media_queries_sm</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+                <field name="variables_media_queries_md" formElement="input">
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">Medium Screen Size</label>
+                        <dataScope>variables_media_queries_md</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+                <field name="variables_media_queries_lg" formElement="input">
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">Large Screen Size</label>
+                        <dataScope>variables_media_queries_lg</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+                <field name="variables_media_queries_xl" formElement="input">
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">Extra Large Screen Size</label>
+                        <dataScope>variables_media_queries_xl</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+                <field name="variables_media_queries_2xl" formElement="input">
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">2 Extra Large Screen Size</label>
+                        <dataScope>variables_media_queries_2xl</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+            </fieldset>
+
+            <!-- Font Family -->
+            <fieldset name="typography" sortOrder="30">
+                <settings>
+                    <level>2</level>
+                    <collapsible>true</collapsible>
+                    <label translate="true">Font Family</label>
+                </settings>
+                <field name="variables_font_family" formElement="input">
+                    <argument name="data" xsi:type="array">
+                        <item name="config" xsi:type="array">
+                            <item name="default" xsi:type="string">
+                                <![CDATA["Segoe UI", "Helvetica Neue", "Arial", "sans-serif"]]>
+                            </item>
+                        </item>
+                    </argument>
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">Font Family</label>
+                        <dataScope>variables_font_family</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+            </fieldset>
+
+            <!-- Colors -->
+            <fieldset name="colors" sortOrder="40">
+                <settings>
+                    <level>2</level>
+                    <collapsible>true</collapsible>
+                    <label translate="true">Colors</label>
+                </settings>
+                <fieldset name="primary_color" sortOrder="10">
+                    <settings>
+                        <level>3</level>
+                        <label translate="true">Primary Color</label>
+                    </settings>
+                    <field name="variables_colors_primary_lighter" formElement="colorPicker" sortOrder="10">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Lighter</label>
+                            <dataScope>variables_colors_primary_lighter</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_colors_primary_default" formElement="colorPicker" sortOrder="20">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Default</label>
+                            <dataScope>variables_colors_primary_default</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_colors_primary_darker" formElement="colorPicker" sortOrder="30">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Darker</label>
+                            <dataScope>variables_colors_primary_darker</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                </fieldset>
+
+                <fieldset name="secondary_color" sortOrder="10">
+                    <settings>
+                        <level>3</level>
+                        <label translate="true">Secondary Color</label>
+                    </settings>
+                    <field name="variables_colors_secondary_lighter" formElement="colorPicker" sortOrder="10">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Lighter</label>
+                            <dataScope>variables_colors_secondary_lighter</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_colors_secondary_default" formElement="colorPicker" sortOrder="20">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Default</label>
+                            <dataScope>variables_colors_secondary_default</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_colors_secondary_darker" formElement="colorPicker" sortOrder="30">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Darker</label>
+                            <dataScope>variables_colors_secondary_darker</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                </fieldset>
+
+                <fieldset name="background_color" sortOrder="10">
+                    <settings>
+                        <level>3</level>
+                        <label translate="true">Background Color</label>
+                    </settings>
+                    <field name="variables_colors_background_lighter" formElement="colorPicker" sortOrder="10">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Lighter</label>
+                            <dataScope>variables_colors_background_lighter</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_colors_background_default" formElement="colorPicker" sortOrder="20">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Default</label>
+                            <dataScope>variables_colors_background_default</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_colors_background_darker" formElement="colorPicker" sortOrder="30">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Darker</label>
+                            <dataScope>variables_colors_background_darker</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                </fieldset>
+                <!-- Add fields for other colors -->
+            </fieldset>
+
+            <!-- Text Colors -->
+            <fieldset name="text_colors" sortOrder="50">
+                <settings>
+                    <level>2</level>
+                    <collapsible>true</collapsible>
+                    <label translate="true">Text Colors</label>
+                </settings>
+                <fieldset name="primary_text_color" sortOrder="10">
+                    <settings>
+                        <level>1</level>
+                        <label translate="true">Primary Text Color</label>
+                    </settings>
+                    <field name="variables_text_colors_primary_lighter" formElement="colorPicker" sortOrder="10">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Lighter</label>
+                            <dataScope>variables_text_colors_primary_lighter</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_text_colors_primary_default" formElement="colorPicker" sortOrder="20">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Default</label>
+                            <dataScope>variables_text_colors_primary_default</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_text_colors_primary_darker" formElement="colorPicker" sortOrder="30">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Darker</label>
+                            <dataScope>variables_text_colors_primary_darker</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                </fieldset>
+                <fieldset name="secondary_text_color" sortOrder="10">
+                    <settings>
+                        <level>1</level>
+                        <label translate="true">Seconadry Text Color</label>
+                    </settings>
+                    <field name="variables_text_colors_secondary_lighter" formElement="colorPicker" sortOrder="10">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Lighter</label>
+                            <dataScope>variables_text_colors_secondary_lighter</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_text_colors_secondary_default" formElement="colorPicker" sortOrder="20">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Default</label>
+                            <dataScope>variables_text_colors_secondary_default</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_text_colors_secondary_darker" formElement="colorPicker" sortOrder="30">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Darker</label>
+                            <dataScope>variables_text_colors_secondary_darker</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                </fieldset>
+                <!-- Add fields for other text colors -->
+            </fieldset>
+
+            <!-- Background Colors -->
+            <fieldset name="background_colors" sortOrder="60">
+                <settings>
+                    <level>2</level>
+                    <collapsible>true</collapsible>
+                    <label translate="true">Background Colors</label>
+                </settings>
+                <fieldset name="primary_background_color" sortOrder="10">
+                    <settings>
+                        <level>3</level>
+                        <label translate="true">Primary Background Color</label>
+                    </settings>
+                    <field name="variables_background_colors_primary_lighter" formElement="colorPicker" sortOrder="10">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Lighter</label>
+                            <dataScope>variables_background_colors_primary_lighter</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_background_colors_primary_default" formElement="colorPicker" sortOrder="20">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Default</label>
+                            <dataScope>variables_background_colors_primary_default</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_background_colors_primary_darker" formElement="colorPicker" sortOrder="30">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Darker</label>
+                            <dataScope>variables_background_colors_primary_darker</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                </fieldset>
+
+                <fieldset name="secondary_background_color" sortOrder="10">
+                    <settings>
+                        <level>3</level>
+                        <label translate="true">Seconadry Background Color</label>
+                    </settings>
+                    <field name="variables_background_colors_secondary_lighter" formElement="colorPicker" sortOrder="10">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Lighter</label>
+                            <dataScope>variables_background_colors_secondary_lighter</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_background_colors_secondary_default" formElement="colorPicker" sortOrder="20">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Default</label>
+                            <dataScope>variables_background_colors_secondary_default</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_background_colors_secondary_darker" formElement="colorPicker" sortOrder="30">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Darker</label>
+                            <dataScope>variables_background_colors_secondary_darker</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                </fieldset>
+
+                <fieldset name="container_background_color" sortOrder="10">
+                    <settings>
+                        <level>3</level>
+                        <label translate="true">Container Background Color</label>
+                    </settings>
+                    <field name="variables_background_colors_container_lighter" formElement="colorPicker" sortOrder="10">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Lighter</label>
+                            <dataScope>variables_background_colors_container_lighter</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_background_colors_container_default" formElement="colorPicker" sortOrder="20">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Default</label>
+                            <dataScope>variables_background_colors_container_default</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_background_colors_container_darker" formElement="colorPicker" sortOrder="30">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Darker</label>
+                            <dataScope>variables_background_colors_container_darker</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                </fieldset>
+                <!-- Add fields for other background colors -->
+            </fieldset>
+
+            <!-- Border Colors -->
+            <fieldset name="border_colors" sortOrder="70">
+                <settings>
+                    <level>2</level>
+                    <collapsible>true</collapsible>
+                    <label translate="true">Border Colors</label>
+                </settings>
+                <fieldset name="primary_border_color" sortOrder="10">
+                    <settings>
+                        <level>1</level>
+                        <label translate="true">Primary Border Color</label>
+                    </settings>
+                    <field name="variables_border_colors_primary_lighter" formElement="colorPicker" sortOrder="10">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Lighter</label>
+                            <dataScope>variables_border_colors_primary_lighter</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_border_colors_primary_default" formElement="colorPicker" sortOrder="20">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Default</label>
+                            <dataScope>variables_border_colors_primary_default</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_border_colors_primary_darker" formElement="colorPicker" sortOrder="30">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Darker</label>
+                            <dataScope>variables_border_colors_primary_darker</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                </fieldset>
+
+                <fieldset name="secondary_border_color" sortOrder="10">
+                    <settings>
+                        <level>1</level>
+                        <label translate="true">Secondary Border Color</label>
+                    </settings>
+                    <field name="variables_border_colors_secondary_lighter" formElement="colorPicker" sortOrder="10">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Lighter</label>
+                            <dataScope>variables_border_colors_secondary_lighter</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_border_colors_secondary_default" formElement="colorPicker" sortOrder="20">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Default</label>
+                            <dataScope>variables_border_colors_secondary_default</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_border_colors_secondary_darker" formElement="colorPicker" sortOrder="30">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Darker</label>
+                            <dataScope>variables_border_colors_secondary_darker</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                </fieldset>
+
+                <fieldset name="container_border_color" sortOrder="10">
+                    <settings>
+                        <level>1</level>
+                        <label translate="true">Container Border Color</label>
+                    </settings>
+                    <field name="variables_border_colors_container_lighter" formElement="colorPicker" sortOrder="10">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Lighter</label>
+                            <dataScope>variables_border_colors_container_lighter</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_border_colors_container_default" formElement="colorPicker" sortOrder="20">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Default</label>
+                            <dataScope>variables_border_colors_container_default</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                    <field name="variables_border_colors_container_darker" formElement="colorPicker" sortOrder="30">
+                        <settings>
+                            <dataType>text</dataType>
+                            <label translate="true">Darker</label>
+                            <dataScope>variables_border_colors_container_darker</dataScope>
+                            <componentType>field</componentType>
+                        </settings>
+                    </field>
+                </fieldset>
+                <!-- Add fields for other border colors -->
+            </fieldset>
+
+            <!-- Heights -->
+            <fieldset name="heights" sortOrder="80">
+                <settings>
+                    <level>2</level>
+                    <collapsible>true</collapsible>
+                    <label translate="true">Heights</label>
+                </settings>
+                <field name="variables_heights_14" formElement="input">
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">Height 14</label>
+                        <dataScope>variables_heights_14</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+                <field name="variables_heights_a11y" formElement="input">
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">Accessibility Height</label>
+                        <dataScope>variables_heights_a11y</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+                <field name="variables_heights_screen_25" formElement="input">
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">Screen 25 Height</label>
+                        <dataScope>variables_heights_screen_25</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+                <field name="variables_heights_screen_50" formElement="input">
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">Screen 50 Height</label>
+                        <dataScope>variables_heights_screen_50</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+                <field name="variables_heights_screen_75" formElement="input">
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">Screen 75 Height</label>
+                        <dataScope>variables_heights_screen_75</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+                <!-- Add fields for other heights -->
+            </fieldset>
+
+            <!-- Widths -->
+            <fieldset name="widths" sortOrder="90">
+                <settings>
+                    <level>2</level>
+                    <collapsible>true</collapsible>
+                    <label translate="true">Widths</label>
+                </settings>
+                <field name="variables_widths_8" formElement="input">
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">Width 8</label>
+                        <dataScope>variables_widths_8</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+                <field name="variables_widths_20" formElement="input">
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">Width 20</label>
+                        <dataScope>variables_widths_20</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+                <field name="variables_widths_40" formElement="input">
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">Width 40</label>
+                        <dataScope>variables_widths_40</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+                <field name="variables_widths_48" formElement="input">
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">Width 48</label>
+                        <dataScope>variables_widths_48</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+                <!-- Add fields for other widths -->
+            </fieldset>
+
+            <!-- Container -->
+            <fieldset name="container" sortOrder="100">
+                <settings>
+                    <level>2</level>
+                    <collapsible>true</collapsible>
+                    <label translate="true">Container</label>
+                </settings>
+                <field name="variables_container_center" formElement="checkbox">
+                    <settings>
+                        <dataType>boolean</dataType>
+                        <label translate="true">Centered Container</label>
+                        <dataScope>variables_container_center</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+                <field name="variables_container_padding" formElement="input">
+                    <settings>
+                        <dataType>text</dataType>
+                        <label translate="true">Container Padding</label>
+                        <dataScope>variables_container_padding</dataScope>
+                        <componentType>field</componentType>
+                    </settings>
+                </field>
+            </fieldset>
+
+            <fieldset name="additional" sortOrder="110">
+                <settings>
+                    <level>2</level>
+                    <collapsible>true</collapsible>
+                    <label translate="true">Additional Variables</label>
+                </settings>
+                <dynamicRows name="variables_additional_custom" sortOrder="30">
+                    <settings>
+                        <addButtonLabel translate="true">Add</addButtonLabel>
+                        <deleteProperty>delete</deleteProperty>
+                        <additionalClasses>
+                            <class name="admin__field-wide">true</class>
+                        </additionalClasses>
+                        <componentType>dynamicRows</componentType>
+                    </settings>
+                    <container name="record" component="Magento_Ui/js/dynamic-rows/record">
+                        <argument name="data" xsi:type="array">
+                            <item name="config" xsi:type="array">
+                                <item name="isTemplate" xsi:type="boolean">true</item>
+                                <item name="is_collection" xsi:type="boolean">true</item>
+                                <item name="componentType" xsi:type="string">container</item>
+                            </item>
+                        </argument>
+                        <field name="key" formElement="input">
+                            <argument name="data" xsi:type="array">
+                                <item name="config" xsi:type="array">
+                                    <item name="fit" xsi:type="boolean">false</item>
+                                </item>
+                            </argument>
+                            <settings>
+                                <validation>
+                                    <rule name="required-entry" xsi:type="boolean">true</rule>
+                                </validation>
+                                <dataType>text</dataType>
+                                <dataScope>key</dataScope>
+                                <label>Variable Name</label>
+                            </settings>
+                        </field>
+                        <field name="value" formElement="colorPicker" component="Magento_Ui/js/form/element/color-picker">
+                            <settings>
+                                <validation>
+                                    <rule name="required-entry" xsi:type="boolean">false</rule>
+                                </validation>
+                                <dataType>text</dataType>
+                                <label translate="true">Value</label>
+                                <dataScope>value</dataScope>
+                                <elementTmpl>ui/form/element/color-picker</elementTmpl>
+                                <componentType>field</componentType>
+                            </settings>
+                            <formElements>
+                                <colorPicker class="Magento\Ui\Component\Form\Element\ColorPicker">
+                                    <settings>
+                                        <colorFormat>hex</colorFormat>
+                                        <colorPickerMode>full</colorPickerMode>
+                                    </settings>
+                                </colorPicker>
+                            </formElements>
+                        </field>
+                        <actionDelete>
+                            <argument name="data" xsi:type="array">
+                                <item name="config" xsi:type="array">
+                                    <item name="componentType" xsi:type="string">actionDelete</item>
+                                    <item name="dataType" xsi:type="string">text</item>
+                                    <item name="fit" xsi:type="boolean">false</item>
+                                    <item name="label" xsi:type="string">Actions</item>
+                                    <item name="additionalClasses" xsi:type="string">data-grid-actions-cell</item>
+                                    <item name="template" xsi:type="string">Magento_Backend/dynamic-rows/cells/action-delete</item>
+                                </item>
+                            </argument>
+                        </actionDelete>
+                    </container>
+                </dynamicRows>
+            </fieldset>
+        </fieldset>
+    </fieldset>
+</form>

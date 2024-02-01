@@ -1,0 +1,13 @@
+<?php
+/**
+ * Copyright © Gtstudio. All rights reserved.
+ * @var $viewModel \Gtstudio\HyvaThemeVariables\ViewModel\Head
+*/
+
+$viewModel = $block->getViewModel();
+?>
+<style>
+    :root {
+    <?= $viewModel->getCssVariables() ?>
+    }
+</style>

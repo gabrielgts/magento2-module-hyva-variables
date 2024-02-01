@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="head.additional">
+            <block name="gtstudio.custom.theme.variables" template="Gtstudio_HyvaThemeVariables::head.phtml">
+                <arguments>
+                    <argument name="view_model" xsi:type="object">Gtstudio\HyvaThemeVariables\ViewModel\Head</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+    </body>
+</page>
