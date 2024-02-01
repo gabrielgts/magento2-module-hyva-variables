@@ -1,4 +1,4 @@
-# Gtstudio Theme Variables
+# Gtstudio Hyva Theme Variables
 
 ## Description
 
