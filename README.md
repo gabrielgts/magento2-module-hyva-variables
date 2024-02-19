@@ -9,21 +9,12 @@ This module allows you to control Hyvä variables by the admin
 ![](docs/module.gif)
 
 ## Installation
-\* = in production please use the `--keep-generated` option
 
-### Type 1: Zip file
+### Composer
 
-- Unzip the zip file in `app/code/Gtstudio`
-- Enable the module by running `php bin/magento module:enable Gtstudio_HyvaThemeVariables`
-- Apply database updates by running `php bin/magento setup:upgrade`\*
-- Flush the cache by running `php bin/magento cache:flush`
-
-### Type 2: Composer
-
-- Install the module composer by running `composer require Gtstudio/module-theme-variables`
+- Install the module composer by running `composer require gtstudio/module-theme-variables`
 - enable the module by running `php bin/magento module:enable Gtstudio_HyvaThemeVariables`
 - apply database updates by running `php bin/magento setup:upgrade`\*
-- Flush the cache by running `php bin/magento cache:flush`
 
 - For information about a module installation in Magento 2, see [Enable or disable modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html).
 
