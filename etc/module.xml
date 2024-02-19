@@ -4,6 +4,7 @@
     <module name="Gtstudio_HyvaThemeVariables">
         <sequence>
             <module name="Magento_Theme"/>
+            <module name="Hyva_Theme"/>
         </sequence>
     </module>
 </config>

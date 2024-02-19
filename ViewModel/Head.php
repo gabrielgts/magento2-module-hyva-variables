@@ -43,6 +43,11 @@ class Head implements ArgumentInterface
         );
     }
 
+    /**
+     * Get additional Variables
+     *
+     * @return string
+     */
     public function getAdditionalVariables() : string
     {
         $parsedCssVars = '';
@@ -64,6 +69,8 @@ class Head implements ArgumentInterface
     }
 
     /**
+     * Get CSS variables
+     *
      * @return string
      */
     public function getCssVariables() : string

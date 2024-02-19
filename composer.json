@@ -6,7 +6,8 @@
   "require": {
       "php": "~8.0|~8.1|~8.2",
       "magento/framework": "*",
-      "magento/module-theme": "101.1.*"
+      "magento/module-theme": "*",
+      "hyva-themes/magento2-theme-module": "*"
   },
   "license": "MIT",
   "autoload": {
