@@ -12,7 +12,7 @@ This module allows you to control Hyvä variables by the admin
 
 ### Composer
 
-- Install the module composer by running `composer require gtstudio/module-theme-variables`
+- Install the module composer by running `composer require gtstudio/module-hyva-theme-variables`
 - enable the module by running `php bin/magento module:enable Gtstudio_HyvaThemeVariables`
 - apply database updates by running `php bin/magento setup:upgrade`\*
 
